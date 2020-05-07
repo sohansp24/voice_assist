@@ -40,5 +40,5 @@ def close_app(text,path,browser,file):
             g.save('sample.mp3')
             playsound.playsound('sample.mp3')
             os.remove(path+'/sample.mp3')
-            return
+            return 
  
