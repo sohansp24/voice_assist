@@ -3,7 +3,6 @@ import re
 from gtts import gTTS
 import playsound as playsound 
 import os as os 
-
 def alert(temp,app_name,path):
     print('Opening '+ temp)
     g=gTTS(text='Opening '+ temp)
