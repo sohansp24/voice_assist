@@ -41,7 +41,7 @@ def listen():
                 capp.close_app(text,path,browser,file)
             elif 'search' in text:
                 browser=browser[:browser.index('.')]
-                sb.Popen([browser,'https://www.google.com/search?q='+text[text.index('search')+7:]]
+                sb.Popen([browser,'https://www.google.com/search?q='+text[text.index('search')+7:]])
             else:
                 import webscrap
                 webscrap.start(text)
