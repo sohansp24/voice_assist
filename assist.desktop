@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=assist
+Comment=Voice based assistant for Linux
+Exec=/usr/lib/voice_assist/assist.sh
+Icon=assist
+Terminal=true
+Type=Application
+Categories=Accessories;
